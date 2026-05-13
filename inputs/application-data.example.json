@@ -1,0 +1,18 @@
+{
+  "firstName": "Jesse",
+  "lastName": "Example",
+  "email": "jesse@example.com",
+  "phone": "+1-000-000-0000",
+  "phoneCountry": "US",
+  "location": "Montreal",
+  "pronouns": "",
+  "currentCompany": "Example Company",
+  "linkedinUrl": "https://www.linkedin.com/in/example",
+  "githubUrl": "https://github.com/example",
+  "resumePath": "outputs/tailored-cv.pdf",
+  "coverLetterPath": "outputs/cover-letter.pdf",
+  "smsConsent": "human-review-required",
+  "eeoc": "human-review-required",
+  "workAuthorization": "Authorized to work in Canada",
+  "requiresSponsorship": "No"
+}

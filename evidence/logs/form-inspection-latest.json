@@ -1,0 +1,243 @@
+{
+  "inspectedAt": "2026-05-13T17:17:04.175Z",
+  "url": "https://ats.rippling.com/en-CA/opendoor/jobs/f572e889-0644-4590-8a5a-64f73d7db17d/apply?step=application",
+  "note": "Inspection only. No data entry, upload, consent action, or submission was attempted.",
+  "metadata": {
+    "uuid": "f572e889-0644-4590-8a5a-64f73d7db17d",
+    "name": "Operations AI Engineer",
+    "companyName": "Opendoor Labs Inc.",
+    "workLocations": [
+      "Toronto, Canada"
+    ],
+    "department": {
+      "name": "8024 - Business Operations",
+      "base_department": "Operations",
+      "department_tree": [
+        "Operations",
+        "Operations",
+        "Business Operations",
+        "8024 - Business Operations"
+      ]
+    },
+    "employmentType": {
+      "label": "SALARIED_FT",
+      "id": "Salaried, full-time"
+    },
+    "customFields": [
+      {
+        "title": "First name",
+        "fieldType": "SHORT_ANSWER",
+        "fieldData": {},
+        "oid": "first_name",
+        "required": true
+      },
+      {
+        "title": "Last name",
+        "fieldType": "SHORT_ANSWER",
+        "fieldData": {},
+        "oid": "last_name",
+        "required": true
+      },
+      {
+        "title": "Email",
+        "fieldType": "SHORT_ANSWER",
+        "fieldData": {},
+        "oid": "email",
+        "required": true
+      },
+      {
+        "title": "Pronouns",
+        "fieldType": "PRONOUN",
+        "fieldData": {},
+        "oid": "pronouns",
+        "required": false
+      },
+      {
+        "title": "Current company",
+        "fieldType": "SHORT_ANSWER",
+        "fieldData": {},
+        "oid": "current_company",
+        "required": false
+      },
+      {
+        "title": "Phone number",
+        "fieldType": "PHONE_NUMBER",
+        "fieldData": {},
+        "oid": "phone_number",
+        "required": true
+      },
+      {
+        "title": "Location (city only)",
+        "fieldType": "SHORT_ANSWER",
+        "fieldData": {},
+        "oid": "location",
+        "required": true
+      },
+      {
+        "title": "LinkedIn link",
+        "fieldType": "SHORT_ANSWER",
+        "fieldData": {},
+        "oid": "linkedin_link",
+        "required": false
+      },
+      {
+        "title": "Resume",
+        "fieldType": "FILE",
+        "fieldData": {},
+        "oid": "resume",
+        "required": true
+      },
+      {
+        "title": "Cover letter",
+        "fieldType": "FILE",
+        "fieldData": {},
+        "oid": "cover_letter",
+        "required": false
+      }
+    ],
+    "additionalQuestions": null,
+    "eeocQuestionnaireEnabled": true,
+    "eeocQuestionnaireEnabledForJobPost": true
+  },
+  "visibleControls": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "ariaLabel": null,
+      "placeholder": null,
+      "text": "Exit to job board",
+      "required": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "ariaLabel": null,
+      "placeholder": null,
+      "text": "Drop or select (.doc / .docx / .pdf)",
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "aSfCmvGPrq",
+      "ariaLabel": null,
+      "placeholder": "First name",
+      "text": null,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "355Mxdq-z0C",
+      "ariaLabel": null,
+      "placeholder": "Last name",
+      "text": null,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "9hLrE8ds4DD",
+      "ariaLabel": null,
+      "placeholder": "Email",
+      "text": null,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "kDJ4D5Mv8NS",
+      "ariaLabel": "Search",
+      "placeholder": "Search",
+      "text": null,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "6NEiHTkV6FP",
+      "ariaLabel": null,
+      "placeholder": "Current company",
+      "text": null,
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "ZAEFoc_oUx9",
+      "ariaLabel": "Search",
+      "placeholder": "Search",
+      "text": null,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "A6C0Jej3euY",
+      "ariaLabel": null,
+      "placeholder": "Phone number",
+      "text": null,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "k_QvSc2k_Cu",
+      "ariaLabel": "textbox",
+      "placeholder": null,
+      "text": null,
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "iHMxIKQHCRa",
+      "ariaLabel": null,
+      "placeholder": "LinkedIn Link",
+      "text": null,
+      "required": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": null,
+      "ariaLabel": null,
+      "placeholder": null,
+      "text": "Drop or select (.doc / .docx / .pdf)",
+      "required": false
+    },
+    {
+      "tag": "input",
+      "type": null,
+      "name": "5efegggNI9g",
+      "ariaLabel": "Select...",
+      "placeholder": "Select...",
+      "text": null,
+      "required": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": null,
+      "ariaLabel": null,
+      "placeholder": null,
+      "text": "Apply",
+      "required": false
+    }
+  ],
+  "visiblePageSignals": {
+    "eeocEnabled": true,
+    "eeocFields": [
+      "Gender",
+      "Please identify your race",
+      "Are you Hispanic/Latino?",
+      "Veteran Status",
+      "Disability Status"
+    ],
+    "smsConsentPresent": true,
+    "termsNoticePresent": true,
+    "aiApplicationAnalysisNoticePresent": true
+  }
+}

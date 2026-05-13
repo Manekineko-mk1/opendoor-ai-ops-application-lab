@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-05-13T21:26:11.751Z",
+  "url": "https://ats.rippling.com/en-CA/opendoor/jobs/f572e889-0644-4590-8a5a-64f73d7db17d/apply?step=application",
+  "note": "Redacted log. No final submission attempted. EEOC, SMS consent, terms, and final apply remain human-reviewed.",
+  "applicationData": {
+    "firstName": "[REDACTED]",
+    "lastName": "[REDACTED]",
+    "email": "[REDACTED]",
+    "phone": "[REDACTED]",
+    "phoneCountry": "CA",
+    "location": "[REDACTED]",
+    "pronouns": "",
+    "currentCompany": "[REDACTED]",
+    "linkedinUrl": "[REDACTED]",
+    "resumePath": "outputs/Jesse_Tsang_Opendoor_Operations_AI_Engineer_CV.pdf",
+    "coverLetterPath": "outputs/Jesse_Tsang_Opendoor_Cover_Letter.pdf",
+    "smsConsent": "human-review-required",
+    "eeoc": "human-review-required",
+    "workAuthorization": "Authorized to work in Canada",
+    "requiresSponsorship": "No"
+  },
+  "events": [
+    "Loaded and validated local application data.",
+    "Opened application form on navigation attempt 1.",
+    "Uploaded resume from local path.",
+    "Filled required identity fields.",
+    "Filled optional current company field.",
+    "Selected +1 CA phone country and filled required phone field.",
+    "Selected Montreal, QC, Canada location suggestion.",
+    "Filled optional LinkedIn field.",
+    "Uploaded optional cover letter from local path.",
+    "Captured screenshot at pre-submit human-review gate.",
+    "Entered final submission review pause for human-controlled consent and final apply."
+  ]
+}

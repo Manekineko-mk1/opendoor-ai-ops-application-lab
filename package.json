@@ -1,0 +1,22 @@
+{
+  "name": "opendoor-ai-ops-application-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "inspect:form": "playwright test scripts/inspect-form.spec.ts --project=chromium",
+    "inspect:security": "playwright test scripts/inspect-security-challenges.spec.ts --project=chromium",
+    "generate:pdfs": "node scripts/generate-application-pdfs.mjs",
+    "generate:manual-helper": "node scripts/generate-manual-submission-helper.mjs",
+    "fill:form": "playwright test scripts/fill-application.spec.ts --project=chromium",
+    "fill:form:headed": "playwright test scripts/fill-application.spec.ts --project=chromium --headed",
+    "fill:form:real-browser": "node scripts/manual-browser-assist.mjs",
+    "fill:form:headed:video": "set FINAL_SUBMISSION_RUN=1&& playwright test scripts/fill-application.spec.ts --project=chromium-video --headed",
+    "submit:form:headed:video": "set FINAL_SUBMISSION_RUN=1&& set SUBMIT_APPLICATION=1&& playwright test scripts/fill-application.spec.ts --project=chromium-video --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^25.7.0"
+  }
+}
+

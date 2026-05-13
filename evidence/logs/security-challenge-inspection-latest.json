@@ -1,0 +1,123 @@
+{
+  "inspectedAt": "2026-05-13T21:15:18.085Z",
+  "url": "https://ats.rippling.com/en-CA/opendoor/jobs/f572e889-0644-4590-8a5a-64f73d7db17d/apply?step=application",
+  "note": "Security challenge inspection only. No private data entry, upload, consent action, CAPTCHA solving, or submission was attempted.",
+  "challengePattern": "captcha|recaptcha|hcaptcha|turnstile|arkose|datadome|perimeterx|px-captcha|cloudflare|cf-challenge|challenge|verify you are human|security check",
+  "summary": {
+    "domMatchCount": 4,
+    "hiddenChallengeInputCount": 0,
+    "iframeCount": 1,
+    "challengeIframeCount": 0,
+    "challengeScriptCount": 2,
+    "networkSignalCount": 12,
+    "bodyTextMatchedChallengePattern": true
+  },
+  "domSignals": {
+    "bodyMatches": true,
+    "hiddenInputs": [],
+    "frames": [
+      {
+        "src": null,
+        "title": null,
+        "name": null,
+        "matchesChallengePattern": false
+      }
+    ],
+    "scripts": [
+      "https://challenges.cloudflare.com/turnstile/v0/api.js",
+      "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+    ],
+    "matchingElements": [
+      {
+        "tag": "script",
+        "attrs": {
+          "src": "https://challenges.cloudflare.com/turnstile/v0/api.js",
+          "id": "load-turnstile-script"
+        },
+        "text": ""
+      },
+      {
+        "tag": "div",
+        "attrs": {
+          "id": "turnstile-container"
+        },
+        "text": ""
+      },
+      {
+        "tag": "script",
+        "attrs": {
+          "src": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+        },
+        "text": ""
+      },
+      {
+        "tag": "script",
+        "attrs": {},
+        "text": "(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9fb4ad79683eac0c',t:'MTc3ODc"
+      }
+    ]
+  },
+  "networkSignals": [
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516"
+    },
+    {
+      "type": "response",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://ats.rippling.com/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://challenges.cloudflare.com/turnstile/v0/api.js"
+    },
+    {
+      "type": "response",
+      "url": "https://ats.rippling.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 302
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://ats.rippling.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/883a1f27d85f/main.js?"
+    },
+    {
+      "type": "response",
+      "url": "https://challenges.cloudflare.com/turnstile/v0/api.js",
+      "status": 302
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://challenges.cloudflare.com/turnstile/v0/b/883a1f27d85f/api.js"
+    },
+    {
+      "type": "response",
+      "url": "https://ats.rippling.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/883a1f27d85f/main.js?",
+      "status": 200
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "https://ats.rippling.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/883a1f27d85f/0.879821855333483:1778706495:vggHdLdtioi0Lz6Ld6vdeFeo_8MVPrY3XF03XeiiELA/9fb4ad79683eac0c"
+    },
+    {
+      "type": "response",
+      "url": "https://challenges.cloudflare.com/turnstile/v0/b/883a1f27d85f/api.js",
+      "status": 200
+    },
+    {
+      "type": "response",
+      "url": "https://ats.rippling.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/883a1f27d85f/0.879821855333483:1778706495:vggHdLdtioi0Lz6Ld6vdeFeo_8MVPrY3XF03XeiiELA/9fb4ad79683eac0c",
+      "status": 200
+    }
+  ],
+  "screenshot": "evidence/screenshots/security-challenge-inspection-latest.png"
+}

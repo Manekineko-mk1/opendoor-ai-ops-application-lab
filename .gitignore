@@ -1,0 +1,28 @@
+# Private application inputs
+inputs/seed-cv.pdf
+inputs/seed-cv.md
+inputs/application-data.local.json
+
+# Generated local artifacts that may contain private data
+outputs/tailored-cv.md
+outputs/tailored-cv.review.md
+outputs/*.pdf
+outputs/playwright-video/
+outputs/manual-submission-helper.html
+evidence/screenshots/*
+!evidence/screenshots/.gitkeep
+!evidence/screenshots/form-inspection-latest.png
+!evidence/screenshots/form-fill-paused-before-submit.png
+!evidence/screenshots/security-challenge-inspection-latest.png
+evidence/logs/*
+!evidence/logs/.gitkeep
+!evidence/logs/form-inspection-latest.json
+!evidence/logs/form-fill-latest.redacted.json
+!evidence/logs/security-challenge-inspection-latest.json
+
+# Dependencies and local tool output
+node_modules/
+test-results/
+playwright-report/
+.env
+.env.*
