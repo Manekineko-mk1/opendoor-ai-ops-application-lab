@@ -1,12 +1,9 @@
 # Private application inputs
-inputs/seed-cv.pdf
-inputs/seed-cv.md
 inputs/application-data.local.json
 
 # Generated local artifacts that may contain private data
 outputs/tailored-cv.md
 outputs/tailored-cv.review.md
-outputs/*.pdf
 outputs/playwright-video/
 outputs/manual-submission-helper.html
 evidence/screenshots/*
